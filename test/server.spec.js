@@ -9,12 +9,12 @@ describe("When I start my server", function(){
     var request = supertest.agent(app.listen());
     
     
-   // it("should return a status 200",function(done){
-    //   request
-    //        .get("/")
-    //        .expect(200)
-   //         .end(done);
-   // });
+    it("should return a status 200",function(done){
+       request
+            .get("/")
+            .expect(200)
+            .end(done);
+    });
     
      //   it("should return a status Node at idweaver by Mouncef",function(done){
     //   request

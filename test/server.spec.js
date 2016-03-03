@@ -16,11 +16,11 @@ describe("When I start my server", function(){
             .end(done);
     });
     
-        it("should return a status Node at idweaver by Mouncef",function(done){
-       request
-            .get("/")
-            .expect("Node at idweaver by Mouncef")
-            .end(done);
-    });
+     //   it("should return a status Node at idweaver by Mouncef",function(done){
+    //   request
+    //        .get("/")
+   //         .expect("Node at idweaver by Mouncef")
+   //        .end(done);
+  //  });
 
 });
